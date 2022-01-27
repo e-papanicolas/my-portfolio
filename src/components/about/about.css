@@ -1,0 +1,59 @@
+#about-container {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+#about-color {
+  height: 100vh;
+  background-color: #ff8c64;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about {
+  min-height: 700px;
+  width: 80%;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+#about h2 {
+  font-weight: 500;
+  font-size: 30px;
+  border: 2px solid red;
+}
+
+.blurb {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.stacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid red;
+}
+
+.list {
+  border: 2px solid blue;
+}
+
+#about li {
+  list-style: none;
+}
+
+.front-end {
+  border: 2px solid red;
+}
+
+.back-end {
+  border: 2px solid red;
+}
+
+#about h3 {
+  border: 2px solid red;
+}

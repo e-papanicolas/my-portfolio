@@ -1,0 +1,23 @@
+#projects-container {
+  scroll-snap-align: start;
+}
+
+#projects-color {
+  height: 100vh;
+  background-color: #ff665a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects {
+  min-height: 700px;
+  width: 80%;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+#projects h1 {
+  font-weight: 400;
+  font-size: 70px;
+}

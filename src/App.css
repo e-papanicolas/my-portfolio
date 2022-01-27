@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Code Pro";
+}
+
+html {
+  scroll-snap-type: y proximity;
+}
+
+#bottom-button {
+  position: fixed;
+  bottom: 15px;
+  z-index: 10;
+  color: #ad8c2f;
+  font-size: 20px;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+#bottom-button:hover {
+  font-size: 40px;
+}
+
+#top-button {
+  position: fixed;
+  top: 10px;
+  z-index: 10;
+  color: #ad8c2f;
+  font-size: 20px;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+#top-button:hover {
+  font-size: 40px;
+}
