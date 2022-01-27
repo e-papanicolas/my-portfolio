@@ -15,17 +15,19 @@
   width: 80%;
   margin-top: 20vh;
   margin-bottom: 20vh;
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-#contact h1 {
-  font-weight: 400;
+.title {
+  font-weight: 500;
   font-size: 70px;
 }
 
 .social {
-  padding: 10px;
-  color: white;
+  padding: 20px;
+  color: #a3a1a8;
 }
 
 #one.social:hover {
@@ -42,11 +44,4 @@
 
 #four.social:hover {
   color: #fff587;
-}
-
-.connect {
-  border: 2px solid red;
-}
-.social-media {
-  border: 2px solid red;
 }

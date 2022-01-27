@@ -14,13 +14,16 @@
 #about {
   min-height: 700px;
   width: 80%;
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-bottom: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #about h2 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 70px;
   border: 2px solid red;
 }
 
@@ -56,4 +59,13 @@
 
 #about h3 {
   border: 2px solid red;
+}
+
+.blog,
+.blog:visited {
+  color: black;
+}
+
+.blog:hover {
+  color: white;
 }

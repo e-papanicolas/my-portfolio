@@ -7,13 +7,12 @@ export default function largeContact() {
       <div id="contact-color">
         <div id="contact">
           <div className="connect">
-            <h2>let's connect!</h2>
+            <h2 className="title">let's connect!</h2>
             <p>I am always looking to connect with new people.</p>
             <p>Sharing ideas turns possibilities into realities. </p>
           </div>
 
           <div className="social-media">
-            <h2>get in touch...</h2>
             <div class Name="links">
               <a
                 id="one"
