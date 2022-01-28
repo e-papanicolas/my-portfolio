@@ -14,35 +14,32 @@
 #about {
   min-height: 700px;
   width: 80%;
-  margin-top: 10vh;
+  margin-top: 2.5rem;
   margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #about h2 {
   font-weight: 500;
-  font-size: 55px;
-  border: 2px solid red;
+  font-size: 3.5rem;
 }
 
 .blurb {
   font-weight: 400;
   font-size: 16px;
   padding: 20px;
-  border: 2px solid red;
 }
 
 .stacks {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 2px solid red;
 }
 
 .list {
-  border: 2px solid blue;
+  padding-inline-start: 0px;
 }
 
 #about li {
@@ -50,22 +47,26 @@
 }
 
 .front-end {
-  border: 2px solid red;
 }
 
 .back-end {
-  border: 2px solid red;
 }
 
 #about h3 {
-  border: 2px solid red;
 }
 
-.blog,
+.blog {
+  transition-property: color;
+  transition-duration: 0.75s;
+}
+
 .blog:visited {
   color: black;
 }
 
 .blog:hover {
   color: white;
+}
+
+.blog-div {
 }

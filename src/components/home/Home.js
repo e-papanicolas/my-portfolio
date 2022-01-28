@@ -6,7 +6,7 @@ export default function Home({ scrollToSec }) {
     <div id="home-container">
       <div className="App-home">
         <div className="me">
-          <h1>{"hi, i'm eleni :)"}</h1>
+          <h1 className="animate__fadeInDownBig">{"hi, i'm eleni :)"}</h1>
         </div>
         <div className="link-container">
           <div className="home-link about" onClick={() => scrollToSec("about")}>

@@ -4,11 +4,12 @@ import "./projects.css";
 export default function ProjectCard({ project }) {
   return (
     <div className="project-card">
-      <image src={project.preview} alt={project.name} />
+      <a href={project.url}>
+        <img src={project.preview} alt={project.name} />
+      </a>
       <div className="links">
-        <a className="title" href={project.url}>
-          <h3>{project.name}</h3>
-        </a>
+        <h3>{project.name}</h3>
+
         <a href={project.github}>
           <i
             className="fab fa-github-square fa-2x"

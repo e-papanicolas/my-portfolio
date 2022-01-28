@@ -28,6 +28,8 @@
 .social {
   padding: 20px;
   color: #a3a1a8;
+  transition-property: color;
+  transition-duration: 0.75s;
 }
 
 #one.social:hover {

@@ -5,77 +5,88 @@
 #projects-color {
   height: 100vh;
   background-color: #ff665a;
-  display: flex;
-  align-items: center;
+  display: flex-column;
   justify-content: center;
+  align-items: center;
+  min-height: 700px;
 }
 
 #projects {
-  min-height: 700px;
-  width: 80%;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid yellow;
-}
-
-#projects h1 {
-  font-weight: 400;
-  font-size: 70px;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 .heading {
-  border: 1px solid red;
+  font-weight: 500;
+  font-size: 3.5rem;
+  padding: none;
+  padding-top: 4rem;
+  margin-block-start: 0px;
 }
 
-.tech-list {
-  display: flex;
-  justify-content: space-around;
-  border: 1px solid blue;
+ul.tech-list {
+  display: inline-flex;
+  align-items: center;
+  padding-inline-start: 0px;
 }
 
 .tech-list > li {
   list-style-type: none;
-  border: 1px solid red;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 .project-card {
   margin: 20px;
-  margin-bottom: 50px;
-  padding: 10px 40px;
-  border: 5px solid black;
+  border: 2px solid black;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  width: 80%;
-  justify-content: center;
   align-items: center;
   line-height: 0.9em;
-  height: 400px;
+  height: 450px;
   flex-grow: 1;
+  width: 25%;
+  background-color: rbg(163, 161, 168);
 }
 
-p {
-  font-size: 14px;
-  border: 1px solid green;
-}
-
-.title {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  border: 1px solid pink;
-}
-
-.title h3 {
-  font-size: 18px;
+#projects p {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0px 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 .links {
   display: flex;
-  border: 1px solid purple;
   align-items: center;
+}
+
+.links a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+#projects h3 {
+  color: black;
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+  border-bottom: 2px solid black;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+img:hover {
+  opacity: 75%;
 }

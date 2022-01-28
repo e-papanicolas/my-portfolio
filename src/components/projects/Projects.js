@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
+import carbonpic from "../../images/carbonpic.png";
 
 export default function Projects() {
   const projects = [
@@ -8,9 +9,9 @@ export default function Projects() {
       id: 1,
       name: "My Carbon Footprint",
       description:
-        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol andEnvironment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "My Carbon Footprint takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
       url: "",
-      preview: "",
+      preview: carbonpic,
       tech: ["React", "Ruby", "Sinatra", "PostgreSQL"],
       github: "https://github.com/e-papanicolas/my-carbon-footprint-app",
     },
@@ -18,7 +19,7 @@ export default function Projects() {
       id: 2,
       name: "project2",
       description:
-        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol andEnvironment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
       url: "",
       preview: "",
       tech: ["React", "Next.js", "Ruby", "Rails", "PostgreSQL"],
@@ -28,7 +29,7 @@ export default function Projects() {
       id: 3,
       name: "project3",
       description:
-        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol andEnvironment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
       url: "",
       preview: "",
       tech: ["React", "Ruby", "Rails", "mySQL"],
@@ -39,8 +40,8 @@ export default function Projects() {
   return (
     <div id="projects-container">
       <div id="projects-color">
-        <div className="heading">
-          <h2>things i've worked on</h2>
+        <div>
+          <h2 className="heading">things i've worked on</h2>
         </div>
         <div id="projects">
           {projects.map((project) => {

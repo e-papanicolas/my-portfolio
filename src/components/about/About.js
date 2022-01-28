@@ -55,7 +55,7 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <div>
+          <div className="blog-div">
             <a className="blog" href="https://dev.to/e_papanicolas">
               <i className="fab fa-dev fa-5x"></i>
             </a>
