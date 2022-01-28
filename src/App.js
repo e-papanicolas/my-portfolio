@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./App.css";
 import { Breakpoint, BreakpointProvider } from "react-socks";
-import LargeHome from "./components/home/largeHome";
-import LargeAbout from "./components/about/largeAbout";
-import LargeProjects from "./components/projects/largeProjects";
-import LargeContact from "./components/contact/largeContact";
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
@@ -94,10 +94,10 @@ function App() {
       <div className="App">
         <Breakpoint large up>
           <div id="scroll">
-            <LargeHome scrollToSec={scrollToSec} />
-            <LargeAbout />
-            <LargeProjects />
-            <LargeContact />
+            <Home scrollToSec={scrollToSec} />
+            <About />
+            <Projects />
+            <Contact />
             {topBtn ? (
               <FontAwesomeIcon
                 id="top-button"

@@ -1,8 +1,7 @@
 import React from "react";
-
 import "./home.css";
 
-export default function LargeHome({ scrollToSec }) {
+export default function Home({ scrollToSec }) {
   return (
     <div id="home-container">
       <div className="App-home">

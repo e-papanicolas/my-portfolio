@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 
-export default function largeAbout() {
+export default function About() {
   return (
     <div id="about-container">
       <div id="about-color">

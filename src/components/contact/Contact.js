@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 
-export default function largeContact() {
+export default function Contact() {
   return (
     <div id="contact-container">
       <div id="contact-color">
@@ -34,13 +34,6 @@ export default function largeContact() {
                 href="https://www.linkedin.com/in/elenipapanicolas/"
               >
                 <i className="fab fa-linkedin fa-5x"></i>
-              </a>
-              <a
-                id="four"
-                className="social"
-                href="https://codepen.io/e_papanicolas"
-              >
-                <i className="fab fa-codepen fa-5x"></i>
               </a>
             </div>
           </div>
