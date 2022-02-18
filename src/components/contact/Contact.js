@@ -35,6 +35,13 @@ export default function Contact() {
               >
                 <i className="fab fa-linkedin fa-5x"></i>
               </a>
+              <a
+                id="four"
+                className="social"
+                href="https://dev.to/e_papanicolas"
+              >
+                <i className="fab fa-dev fa-5x"></i>
+              </a>
             </div>
           </div>
         </div>

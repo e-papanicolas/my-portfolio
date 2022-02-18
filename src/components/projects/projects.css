@@ -31,6 +31,8 @@ ul.tech-list {
   display: inline-flex;
   align-items: center;
   padding-inline-start: 0px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .tech-list > li {

@@ -21,8 +21,8 @@
 }
 
 .title {
-  font-weight: 500;
-  font-size: 70px;
+  font-weight: 600;
+  font-size: 5rem;
 }
 
 .social {
@@ -46,4 +46,8 @@
 
 #four.social:hover {
   color: #fff587;
+}
+
+#contact p {
+  font-size: 1.25rem;
 }

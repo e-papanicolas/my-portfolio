@@ -6,7 +6,7 @@ export default function About() {
     <div id="about-container">
       <div id="about-color">
         <div id="about">
-          <h2>full stack developer</h2>
+          <h1>full stack developer</h1>
           <div className="blurb">
             For the past 16 years Eleni called various restaurants home. When
             the pandemic hit, and restaurants closed down, she had an unusual
@@ -36,6 +36,9 @@ export default function About() {
                 </li>
               </ul>
             </div>
+            <div>
+              <p className="and">&</p>
+            </div>
             <div className="back-end">
               <h3>back-end</h3>
               <ul className="list">
@@ -47,18 +50,10 @@ export default function About() {
                 </li>
                 <li>Sinatra</li>
                 <li>
-                  SQL <i class="fas fa-database"></i>
-                </li>
-                <li>
                   PostgreSQL <i class="fas fa-database"></i>
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="blog-div">
-            <a className="blog" href="https://dev.to/e_papanicolas">
-              <i className="fab fa-dev fa-5x"></i>
-            </a>
           </div>
         </div>
       </div>

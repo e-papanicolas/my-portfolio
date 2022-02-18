@@ -21,21 +21,22 @@
   justify-content: space-evenly;
 }
 
-#about h2 {
-  font-weight: 500;
-  font-size: 3.5rem;
+#about h1 {
+  font-weight: 700;
+  font-size: 5em;
 }
 
 .blurb {
   font-weight: 400;
-  font-size: 16px;
-  padding: 20px;
+  font-size: 1.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .stacks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .list {
@@ -44,29 +45,23 @@
 
 #about li {
   list-style: none;
+  font-size: 1.25rem;
 }
 
 .front-end {
+  padding-right: 2rem;
 }
 
 .back-end {
+  padding-left: 2rem;
 }
 
 #about h3 {
+  font-size: 1.5rem;
 }
 
-.blog {
-  transition-property: color;
-  transition-duration: 0.75s;
-}
-
-.blog:visited {
-  color: black;
-}
-
-.blog:hover {
-  color: white;
-}
-
-.blog-div {
+.and {
+  font-size: 10rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
 }

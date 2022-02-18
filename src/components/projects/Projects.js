@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
 import carbonpic from "../../images/carbonpic.png";
+import tweeter from "../../images/tweeter.png";
 
 export default function Projects() {
   const projects = [
@@ -17,23 +18,23 @@ export default function Projects() {
     },
     {
       id: 2,
-      name: "project2",
+      name: "Tweeter",
       description:
-        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "Tweeter is a social media clone that uses Action Cable websockets for real-time chats.",
       url: "",
-      preview: "",
-      tech: ["React", "Next.js", "Ruby", "Rails", "PostgreSQL"],
-      github: "",
+      preview: tweeter,
+      tech: ["React", "Ruby", "Rails", "PostgreSQL"],
+      github: "https://github.com/e-papanicolas/social-front-end",
     },
     {
       id: 3,
       name: "project3",
       description:
-        "My Carbon Footprint was created by Eleni, Kat, and Hung to give you a fun and easy way to get a snapshot of your personal carbon footprint. The app takes a look at some of the most common carbon emitting activities and provides you the ability to fill in your personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "An app where you can follow a twitter hashtag and stream the tweets in real-time and share with friends.",
       url: "",
       preview: "",
       tech: ["React", "Ruby", "Rails", "mySQL"],
-      github: "",
+      github: "https://github.com/e-papanicolas/tweet-front-end",
     },
   ];
 
