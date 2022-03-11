@@ -14,7 +14,7 @@ function App() {
   const [arrowColor, setArrowColor] = useState("black");
 
   const setBtns = useCallback(() => {
-    if (window.scrollY >= window.innerHeight * 3.5) {
+    if (window.scrollY >= window.innerHeight * 2.5) {
       setBottomBtn(false);
     } else {
       setBottomBtn(true);
@@ -70,7 +70,7 @@ function App() {
       scrollToSec("about");
     } else if (window.scrollY < window.innerHeight * 2) {
       scrollToSec("projects");
-    } else if (window.scrollY < window.innerHeight * 4) {
+    } else if (window.scrollY < window.innerHeight * 3) {
       scrollToSec("contact");
     }
     // else if ( window.scrollY < window.innerHeight *5 ){
@@ -114,7 +114,6 @@ function App() {
                 onClick={handleDownClick}
               />
             ) : null}
-            {/* style={{display: topBtn ? "inline" : "none"}} */}
           </div>
         </Breakpoint>
       </div>
