@@ -57,7 +57,7 @@ function App() {
       setArrowColor("black");
     } else if (section === "contact") {
       window.scrollTo({
-        top: window.innerHeight * 4,
+        top: window.innerHeight * 3,
         left: 0,
         behavior: "smooth",
       });

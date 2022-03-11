@@ -1,22 +1,24 @@
 import React from "react";
 import "../App.css";
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 export default function Home({ scrollToSec }) {
-  const onMouseEnterLetter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { y: 100, duration: 1 });
-  };
+  // const onMouseEnterLetter = ({ currentTarget }) => {
+  //   // gsap.to(currentTarget, { rotation: 1, y: 100, duration: 1 });
+  //   gsap.to(currentTarget, { opacity: 50 });
+  // };
 
-  const onMouseLeaveLetter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { y: 0, duration: 1 });
-  };
+  // const onMouseLeaveLetter = ({ currentTarget }) => {
+  //   gsap.to(currentTarget, { y: 0, duration: 1 });
+  // };
 
   return (
     <div id="home-container">
       <div className="App-home">
         <div className="me">
           <h1>
-            <span
+            {"hi, i'm eleni :)"}
+            {/* <span
               onMouseEnter={onMouseEnterLetter}
               onMouseLeave={onMouseLeaveLetter}
             >
@@ -92,8 +94,8 @@ export default function Home({ scrollToSec }) {
               onMouseEnter={onMouseEnterLetter}
               onMouseLeave={onMouseLeaveLetter}
             >
-              )
-            </span>
+              {")"}
+            </span> */}
           </h1>
         </div>
         <div className="link-container">

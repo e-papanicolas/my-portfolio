@@ -22,7 +22,6 @@ h6 {
   position: fixed;
   bottom: 15px;
   z-index: 10;
-  color: #ad8c2f;
   font-size: 20px;
   transition-property: font-size;
   transition-duration: 0.3s;
@@ -37,7 +36,6 @@ h6 {
   position: fixed;
   top: 10px;
   z-index: 10;
-  color: #ad8c2f;
   font-size: 20px;
   transition-property: font-size;
   transition-duration: 0.3s;
@@ -159,13 +157,8 @@ h6 {
   font-size: 1.25rem;
 }
 
-.front-end {
-  padding-right: 2rem;
-  width: 25%;
-}
-
+.front-end,
 .back-end {
-  padding-left: 2rem;
   width: 25%;
 }
 
@@ -225,7 +218,7 @@ ul.tech-list {
   height: 65vh;
   flex-grow: 1;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #f0f0f2;
 }
 
 .project-context {
@@ -285,13 +278,9 @@ img:hover {
 
 .social {
   padding: 20px;
-  color: #a3a1a8;
+  color: #f0f0f2;
   transition-property: color;
   transition-duration: 0.75s;
-}
-
-.social-media {
-  margin-bottom: 10vh;
 }
 
 #one.social:hover {
