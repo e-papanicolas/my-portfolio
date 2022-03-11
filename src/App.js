@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./App.css";
 import { Breakpoint, BreakpointProvider } from "react-socks";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
