@@ -90,30 +90,30 @@ function App() {
   return (
     <BreakpointProvider>
       <div className="App">
-        <Breakpoint large down>
-          <div id="scroll">
-            <Home scrollToSec={scrollToSec} />
-            <About />
-            <Projects />
-            <Contact />
-            {topBtn ? (
-              <FontAwesomeIcon
-                id="top-button"
-                style={{ color: arrowColor }}
-                icon={faChevronUp}
-                onClick={handleUpClick}
-              />
-            ) : null}
-            {bottomBtn ? (
-              <FontAwesomeIcon
-                id="bottom-button"
-                style={{ color: arrowColor }}
-                icon={faChevronDown}
-                onClick={handleDownClick}
-              />
-            ) : null}
-          </div>
-        </Breakpoint>
+        {/* <Breakpoint large down> */}
+        <div id="scroll">
+          <Home scrollToSec={scrollToSec} />
+          <About />
+          <Projects />
+          <Contact />
+          {topBtn ? (
+            <FontAwesomeIcon
+              id="top-button"
+              style={{ color: arrowColor }}
+              icon={faChevronUp}
+              onClick={handleUpClick}
+            />
+          ) : null}
+          {bottomBtn ? (
+            <FontAwesomeIcon
+              id="bottom-button"
+              style={{ color: arrowColor }}
+              icon={faChevronDown}
+              onClick={handleDownClick}
+            />
+          ) : null}
+        </div>
+        {/* </Breakpoint> */}
       </div>
     </BreakpointProvider>
   );
