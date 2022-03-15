@@ -302,3 +302,59 @@ img:hover {
 #contact-container p {
   font-size: 1.25rem;
 }
+
+@media only screen and (max-width: 450px) {
+  #top-button,
+  #bottom-button {
+    display: none;
+  }
+
+  /* .App-home {
+    height: auto;
+  }
+
+  #about-container {
+    height: auto;
+  } */
+
+  #about-container h1 {
+    font-size: 50px;
+    padding: 1rem;
+  }
+
+  .blurb {
+    padding: 1rem;
+  }
+
+  .front-end,
+  .back-end {
+    width: auto;
+  }
+
+  #projects-container {
+    height: auto;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  #projects {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .project-card {
+    width: auto;
+    height: auto;
+  }
+
+  /* #contact-container {
+    height: auto;
+  } */
+
+  .me {
+    padding-top: 0;
+    font-size: 50px;
+  }
+}

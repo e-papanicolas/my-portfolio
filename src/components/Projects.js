@@ -11,7 +11,7 @@ export default function Projects() {
       id: 1,
       name: "My Carbon Footprint",
       description:
-        "My Carbon Footprint takes a look at some of the most common carbon emitting activities and provides users the ability to fill in personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPAGHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "My Carbon Footprint takes a look at some of the most common carbon emitting activities and provides users the ability to fill in personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPA GHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
       url: "",
       preview: carbonpic,
       tech: ["React", "Ruby", "Sinatra", "PostgreSQL"],

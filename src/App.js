@@ -13,6 +13,8 @@ function App() {
   const [bottomBtn, setBottomBtn] = useState(true);
   const [arrowColor, setArrowColor] = useState("black");
 
+  console.log("eleni");
+
   const setBtns = useCallback(() => {
     if (window.scrollY >= window.innerHeight * 2.5) {
       setBottomBtn(false);
@@ -61,7 +63,7 @@ function App() {
         left: 0,
         behavior: "smooth",
       });
-      setArrowColor("black");
+      setArrowColor("white");
     }
   };
 
@@ -73,10 +75,6 @@ function App() {
     } else if (window.scrollY < window.innerHeight * 3) {
       scrollToSec("contact");
     }
-    // else if ( window.scrollY < window.innerHeight *5 ){
-    //   window.scrollTo(0, window.innerHeight * 5)
-    // }
-    console.log(window.scrollY);
   };
 
   const handleUpClick = () => {
@@ -92,7 +90,7 @@ function App() {
   return (
     <BreakpointProvider>
       <div className="App">
-        <Breakpoint large up>
+        <Breakpoint large down>
           <div id="scroll">
             <Home scrollToSec={scrollToSec} />
             <About />
