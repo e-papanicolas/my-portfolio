@@ -262,9 +262,9 @@ img {
   border-top-right-radius: 5px;
 }
 
-img:hover {
+/* img:hover {
   opacity: 75%;
-}
+} */
 
 /* CONTACT */
 #contact-container {

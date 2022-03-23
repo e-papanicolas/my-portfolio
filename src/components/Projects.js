@@ -16,6 +16,7 @@ export default function Projects() {
       preview: carbonpic,
       tech: ["React", "Ruby", "Sinatra", "PostgreSQL"],
       github: "https://github.com/e-papanicolas/my-carbon-footprint-app",
+      demo: "",
     },
     {
       id: 3,
@@ -26,6 +27,7 @@ export default function Projects() {
       preview: tweetstream,
       tech: ["React", "Ruby", "Rails", "PostgreSQL"],
       github: "https://github.com/e-papanicolas/tweet-front-end",
+      demo: "https://www.youtube.com/watch?v=urTOZf8Z2A4",
     },
     {
       id: 2,
@@ -36,6 +38,7 @@ export default function Projects() {
       preview: tweeter,
       tech: ["React", "Ruby", "Rails", "PostgreSQL"],
       github: "https://github.com/e-papanicolas/social-front-end",
+      demo: "",
     },
   ];
 
