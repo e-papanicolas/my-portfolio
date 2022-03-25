@@ -17,12 +17,13 @@ export default function ProjectCard({ project }) {
               style={{ color: "black" }}
             ></i>
           </a>
+          { project.demo.length > 0 ? 
           <a href={project.demo}>
             <i
               className="fab fa-brands fa-youtube fa-2x"
               style={{ color: "black" }}
             ></i>
-          </a>
+          </a> : null }
         </div>
         <p>{project.description}</p>
         <ul className="tech-list">
