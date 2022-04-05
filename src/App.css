@@ -317,10 +317,15 @@ img {
   /* .App-home {
     height: auto;
   }
+  */
 
   #about-container {
     height: auto;
-  } */
+  }
+
+  .horizontal {
+    flex-direction: column;
+  }
 
   #about-container h1 {
     font-size: 50px;

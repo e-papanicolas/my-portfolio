@@ -18,10 +18,7 @@ export default function About() {
         dynamic and fun!
       </div>
       <div className="horizontal">
-        <h3>
-          i'm currently adding
-          <br /> new things to my stack:{" "}
-        </h3>
+        <h3 className="new-tech">i'm currently adding new things to my stack: </h3>
         <ul>
           <li>
             TypeScript <i className="devicon-typescript-plain"></i>
