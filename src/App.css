@@ -308,7 +308,7 @@ img {
   font-size: 1.25rem;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1000px) {
   #top-button,
   #bottom-button {
     display: none;
@@ -325,6 +325,10 @@ img {
 
   .horizontal {
     flex-direction: column;
+  }
+
+  .new-tech {
+    margin-block-end: 0;
   }
 
   #about-container h1 {

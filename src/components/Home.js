@@ -12,7 +12,7 @@ export default function Home({ scrollToSec }) {
             startDelay={100}
             cursorColor="black"
             typeSpeed={100}
-            text="hi, i'm Eleni :)"
+            multiText={["hi, i'm Eleni :)", "full stack developer"]}
           />
         </div>
         <div className="link-container">

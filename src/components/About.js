@@ -17,23 +17,6 @@ export default function About() {
         learning new things so I can build stuff that is accessible, inclusive,
         dynamic and fun!
       </div>
-      <div className="horizontal">
-        <h3 className="new-tech">i'm currently adding new things to my stack: </h3>
-        <ul>
-          <li>
-            TypeScript <i className="devicon-typescript-plain"></i>
-          </li>
-          <li>
-            Node.js <i className="devicon-nodejs-plain"></i>
-          </li>
-          <li>
-            Express.js <i className="devicon-express-original"></i>
-          </li>
-          <li>
-            mongoDB <i className="devicon-mongodb-plain"></i>
-          </li>
-        </ul>
-      </div>
       <div className="stacks">
         <div className="front-end">
           <h3>front-end</h3>
@@ -67,6 +50,25 @@ export default function About() {
             <li>Sinatra</li>
             <li>
               PostgreSQL <i className="devicon-postgresql-plain"></i>
+            </li>
+          </ul>
+        </div>
+        <div className="horizontal">
+          <h3 className="new-tech">
+            i'm currently adding new things to my stack:{" "}
+          </h3>
+          <ul>
+            <li>
+              TypeScript <i className="devicon-typescript-plain"></i>
+            </li>
+            <li>
+              Node.js <i className="devicon-nodejs-plain"></i>
+            </li>
+            <li>
+              Express.js <i className="devicon-express-original"></i>
+            </li>
+            <li>
+              mongoDB <i className="devicon-mongodb-plain"></i>
             </li>
           </ul>
         </div>
