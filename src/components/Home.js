@@ -11,8 +11,15 @@ export default function Home({ scrollToSec }) {
             textStyle={{ fontFamily: "Source Code Pro" }}
             startDelay={100}
             cursorColor="black"
-            typeSpeed={100}
-            multiText={["hi, i'm Eleni :)", "full stack developer"]}
+            typeSpeed={200}
+            multiText={[
+              "hi, i'm Eleni :)",
+              "full stack developer",
+              "plant parent 🪴",
+              "traveler of the world ✈️🌎 ",
+              "hi, i'm Eleni :)",
+            ]}
+            multiTextDelay={1500}
           />
         </div>
         <div className="link-container">
