@@ -14,24 +14,44 @@ export default function About() {
         own, I enrolled at Flatiron School to level up my skills and learn the
         full stack. I recently graduated from the software engineering program
         and am looking for my first full-time developement position. I love
-        learning new things so I can build things that are accessible,
-        inclusive, dynamic and fun!
+        learning new things so I can build stuff that is accessible, inclusive,
+        dynamic and fun!
+      </div>
+      <div className="horizontal">
+        <h3>
+          i'm currently adding
+          <br /> new things to my stack:{" "}
+        </h3>
+        <ul>
+          <li>
+            TypeScript <i className="devicon-typescript-plain"></i>
+          </li>
+          <li>
+            Node.js <i className="devicon-nodejs-plain"></i>
+          </li>
+          <li>
+            Express.js <i className="devicon-express-original"></i>
+          </li>
+          <li>
+            mongoDB <i className="devicon-mongodb-plain"></i>
+          </li>
+        </ul>
       </div>
       <div className="stacks">
         <div className="front-end">
           <h3>front-end</h3>
           <ul className="list">
             <li>
-              JavaScript <i className="fab fa-js-square"></i>
+              JavaScript <i className="devicon-javascript-plain"></i>
             </li>
             <li>
-              React.js <i className="fab fa-react"></i>
+              React.js <i className="devicon-react-original"></i>
             </li>
             <li>
-              HTML <i className="fab fa-html5"></i>
+              HTML <i className="devicon-html5-plain"></i>
             </li>
             <li>
-              CSS <i className="fab fa-css3-alt"></i>
+              CSS <i className="devicon-css3-plain"></i>
             </li>
           </ul>
         </div>
@@ -42,14 +62,14 @@ export default function About() {
           <h3>back-end</h3>
           <ul className="list">
             <li>
-              Ruby <i className="fas fa-gem"></i>
+              Ruby <i className="devicon-ruby-plain"></i>
             </li>
             <li>
-              Ruby on Rails <i className="far fa-gem"></i>
+              Ruby on Rails <i className="devicon-rails-plain"></i>
             </li>
             <li>Sinatra</li>
             <li>
-              PostgreSQL <i className="fas fa-database"></i>
+              PostgreSQL <i className="devicon-postgresql-plain"></i>
             </li>
           </ul>
         </div>

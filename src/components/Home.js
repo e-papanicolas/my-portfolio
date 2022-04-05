@@ -1,105 +1,19 @@
 import React from "react";
 import "../App.css";
-import { gsap } from "gsap";
+import TypeWriterEffect from "react-typewriter-effect";
 
 export default function Home({ scrollToSec }) {
-  const onMouseEnterLetter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { x: -100, duration: 1 });
-  };
-
-  const onMouseLeaveLetter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { x: 0, duration: 1 });
-  };
-
-  const rotate = ({ currentTarget }) => {
-    gsap.to(currentTarget, { rotation: 360, duration: 1 });
-  };
-
   return (
     <div id="home-container">
       <div className="App-home">
         <div className="me">
-          <h1 onMouseEnter={rotate}>
-            {/* {"hi, i'm eleni :)"} */}
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              h
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              i
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              ,
-            </span>{" "}
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              i
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              '
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              m
-            </span>{" "}
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              e
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              l
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              e
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              n
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              i
-            </span>{" "}
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              :
-            </span>
-            <span
-              onMouseEnter={onMouseEnterLetter}
-              onMouseLeave={onMouseLeaveLetter}
-            >
-              {")"}
-            </span>
-          </h1>
+          <TypeWriterEffect
+            textStyle={{ fontFamily: "Source Code Pro" }}
+            startDelay={100}
+            cursorColor="black"
+            typeSpeed={100}
+            text="hi, i'm Eleni :)"
+          />
         </div>
         <div className="link-container">
           <div className="home-link about" onClick={() => scrollToSec("about")}>
