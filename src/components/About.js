@@ -13,7 +13,7 @@ export default function About() {
         scratch. After spending almost a year learning front end languages on my
         own, I enrolled at Flatiron School to level up my skills and learn the
         full stack. I recently graduated from the software engineering program
-        and am looking for my first full-time developement position. I love
+        and am looking for my first full-time development position. I love
         learning new things so I can build stuff that is accessible, inclusive,
         dynamic and fun!
       </div>

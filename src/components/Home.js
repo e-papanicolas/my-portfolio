@@ -16,7 +16,6 @@ export default function Home({ scrollToSec }) {
               "hi, i'm Eleni :)",
               "full stack developer",
               "plant parent 🪴",
-              "traveler of the world ✈️🌎 ",
               "hi, i'm Eleni :)",
             ]}
             multiTextDelay={1500}
