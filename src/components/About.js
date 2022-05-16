@@ -4,7 +4,7 @@ import "../App.css";
 export default function About() {
   return (
     <div id="about-container">
-      <h1>full stack developer</h1>
+      <h1 className="f-s-d">full stack developer</h1>
       <div className="blurb">
         For the past sixteen years I've called various restaurants home. But in
         March 2020, restaurants closed down, and I had an unusual opportunity to

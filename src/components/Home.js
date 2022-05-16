@@ -15,9 +15,8 @@ export default function Home({ scrollToSec }) {
             multiText={[
               "hi, i'm Eleni :)",
               "full stack dev",
+              "curious human",
               "plant parent 🪴",
-              "curiosity driven",
-              "creative thinker",
               "problem solver",
               "hi, i'm Eleni :)",
             ]}

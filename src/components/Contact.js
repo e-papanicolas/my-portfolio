@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div id="contact-container">
       <h2 className="heading">let's connect!</h2>
-      <div>
+      <div className="contact-text">
         <p>I am always looking to connect with new people.</p>
         <p>Sharing ideas turns possibilities into realities. </p>
       </div>
