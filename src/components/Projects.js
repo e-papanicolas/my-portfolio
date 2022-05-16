@@ -17,7 +17,7 @@ export default function Projects() {
       tech: ["React", "Ruby", "Sinatra", "PostgreSQL"],
       github: "https://github.com/e-papanicolas/my-carbon-footprint-app",
       demo: "",
-    },
+    }, 
     {
       id: 3,
       name: "TweetStream",

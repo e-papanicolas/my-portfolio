@@ -11,19 +11,20 @@ export default function ProjectCard({ project }) {
         <div className="links">
           <h3>{project.name}</h3>
 
-          <a href={project.github}>
+          <a href={project.github} className="project-link">
             <i
               className="fab fa-github-square fa-2x"
               style={{ color: "black" }}
             ></i>
           </a>
-          { project.demo.length > 0 ? 
-          <a href={project.demo}>
-            <i
-              className="fab fa-brands fa-youtube fa-2x"
-              style={{ color: "black" }}
-            ></i>
-          </a> : null }
+          {project.demo.length > 0 ? (
+            <a href={project.demo} className="project-link">
+              <i
+                className="fab fa-brands fa-youtube fa-2x"
+                style={{ color: "black" }}
+              ></i>
+            </a>
+          ) : null}
         </div>
         <p>{project.description}</p>
         <ul className="tech-list">

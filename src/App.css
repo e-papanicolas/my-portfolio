@@ -253,6 +253,10 @@ ul.tech-list {
   text-decoration: none;
 }
 
+.project-link:hover {
+  opacity: 50%;
+}
+
 #projects h3 {
   color: black;
   font-size: 15px;

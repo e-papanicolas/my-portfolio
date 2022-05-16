@@ -14,8 +14,11 @@ export default function Home({ scrollToSec }) {
             typeSpeed={200}
             multiText={[
               "hi, i'm Eleni :)",
-              "full stack developer",
+              "full stack dev",
               "plant parent 🪴",
+              "curiosity driven",
+              "creative thinker",
+              "problem solver",
               "hi, i'm Eleni :)",
             ]}
             multiTextDelay={1500}
