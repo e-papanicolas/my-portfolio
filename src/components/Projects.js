@@ -4,20 +4,21 @@ import ProjectCard from "./ProjectCard";
 import carbonpic from "./../images/carbonpic.png";
 import tweeter from "./../images/tweeter.png";
 import tweetstream from "./../images/tweetstream2.png";
+import spi from "./../images/spi.png";
 
 export default function Projects() {
   const projects = [
     {
-      id: 1,
-      name: "My Carbon Footprint",
+      id: 4,
+      name: "SafePlace International Virtual Community",
       description:
-        "My Carbon Footprint takes a look at some of the most common carbon emitting activities and provides users the ability to fill in personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPA GHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "This project was created for Essteem's Pride Month Equalithon, where the challenge was to come up with a web portal solution for SafePlace International's LGBTQ+ refugees worldwide. I collaborated with a fantastic team of UX/UI designers and developers to design and develop the SPI Virtual Community. I designed the back end with Node.js, Express, Sequelize and PostgreSQL, using an MVC architecture.",
       url: "",
-      preview: carbonpic,
-      tech: ["React", "Ruby", "Sinatra", "PostgreSQL"],
-      github: "https://github.com/e-papanicolas/my-carbon-footprint-app",
+      preview: spi,
+      tech: ["Node.js", "Express", "Sequelize", "PostgreSQL"],
+      github: "https://github.com/e-papanicolas/safe-space-api",
       demo: "",
-    }, 
+    },
     {
       id: 3,
       name: "TweetStream",
@@ -28,6 +29,17 @@ export default function Projects() {
       tech: ["React", "Ruby", "Rails", "WebSockets", "PostgreSQL"],
       github: "https://github.com/e-papanicolas/tweet-front-end",
       demo: "https://www.youtube.com/watch?v=urTOZf8Z2A4",
+    },
+    {
+      id: 1,
+      name: "My Carbon Footprint",
+      description:
+        "My Carbon Footprint takes a look at some of the most common carbon emitting activities and provides users the ability to fill in personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPA GHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+      url: "",
+      preview: carbonpic,
+      tech: ["React", "Ruby", "Sinatra", "PostgreSQL"],
+      github: "https://github.com/e-papanicolas/my-carbon-footprint-app",
+      demo: "",
     },
     {
       id: 2,
