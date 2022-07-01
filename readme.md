@@ -1,3 +1,3 @@
 # Eleni's Portfolio Website
 
-[www.elenipapanicolas.com](www.elenipapanicolas.com)
+[take me there!](www.elenipapanicolas.com)
