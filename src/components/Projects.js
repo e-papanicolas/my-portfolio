@@ -12,7 +12,7 @@ export default function Projects() {
       id: 4,
       name: "SafePlace International Virtual Community",
       description:
-        "This project was created for Essteem's Pride Month Equalithon, where the challenge was to come up with a web portal solution for SafePlace International's LGBTQ+ refugees worldwide. I collaborated with a fantastic team of UX/UI designers and developers to design and develop the SPI Virtual Community. I designed the back end with Node.js, Express, Sequelize and PostgreSQL, using an MVC architecture.",
+        "This hackathon-winning project was created for Essteem's Pride Month Equalithon, where the challenge was to come up with a web portal solution for SafePlace International's LGBTQ+ refugees worldwide. I collaborated with a fantastic team of UX/UI designers and developers to design and develop the SPI Virtual Community. I designed the back end with Node.js, Express, Sequelize and PostgreSQL, using an MVC architecture.",
       url: "",
       preview: spi,
       tech: ["Node.js", "Express", "Sequelize", "PostgreSQL"],

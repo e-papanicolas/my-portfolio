@@ -6,8 +6,17 @@ export default function Contact() {
     <div id="contact-container">
       <h2 className="heading">let's connect!</h2>
       <div className="contact-text">
-        <p>I am always looking to connect with new people.</p>
-        <p>Sharing ideas turns possibilities into realities. </p>
+        <p className="bold">I am always looking to connect with new people.</p>
+        <p className="bold">
+          Sharing ideas turns possibilities into realities.{" "}
+        </p>
+
+        <p>
+          In my next position, I am looking for the right match for my
+          development experience, commitment to learning, and passionate nature.
+          My experience in restaurant management has helped me develop strong
+          communication and team collaboration skills.
+        </p>
       </div>
 
       <div className="social-media">

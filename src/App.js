@@ -13,8 +13,6 @@ function App() {
   const [bottomBtn, setBottomBtn] = useState(true);
   const [arrowColor, setArrowColor] = useState("black");
 
-  console.log("eleni");
-
   const setBtns = useCallback(() => {
     if (window.scrollY >= window.innerHeight * 2.5) {
       setBottomBtn(false);

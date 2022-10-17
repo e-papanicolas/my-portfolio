@@ -153,28 +153,56 @@ h6 {
   justify-content: center;
 }
 
+.stack {
+  margin-left: 4em;
+  margin-right: 4em;
+  border: 3px solid black;
+  background-color: #fff587;
+  border-radius: 5px;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
 .list {
   padding-inline-start: 0px;
 }
 
-#about-container li {
+#about-container .list li {
   list-style: none;
   font-size: 1.25rem;
 }
 
-.front-end,
-.back-end {
-  width: 25%;
+#about-container .blurb li {
+  list-style: none;
+  margin-top: 1em;
 }
 
 #about-container h3 {
   font-size: 1.5rem;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .and {
   font-size: 10rem;
   margin-block-start: 0rem;
   margin-block-end: 0rem;
+}
+
+.greet {
+  border: 3px solid black;
+  background-color: #f0f0f2;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.activities-list {
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 /* PROJECTS */
@@ -186,6 +214,11 @@ h6 {
   height: 100vh;
   background-color: #ff665a;
   justify-content: space-evenly;
+}
+
+.heading {
+  font-size: 5em;
+  font-weight: 700;
 }
 
 #projects {
@@ -275,10 +308,6 @@ img {
   border-top-right-radius: 5px;
 }
 
-/* img:hover {
-  opacity: 75%;
-} */
-
 /* CONTACT */
 #contact-container {
   scroll-snap-align: start;
@@ -287,6 +316,12 @@ img {
   height: 100vh;
   background-color: #7d6b7d;
   justify-content: space-evenly;
+}
+
+.contact-text {
+  font-size: 1.75em;
+  margin-left: 6em;
+  margin-right: 6em;
 }
 
 .social {
@@ -310,10 +345,6 @@ img {
 
 #four.social:hover {
   color: #fff587;
-}
-
-#contact-container p {
-  font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -393,6 +424,7 @@ img {
   } */
 
   .contact-text {
+    font-size: 1rem;
     margin-left: 20%;
     margin-right: 20%;
   }
