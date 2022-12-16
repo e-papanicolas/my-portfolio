@@ -38,7 +38,7 @@ export default function About() {
             🫐 I also like to spend time learning about{" "}
             <span className="bold">tools and products</span> that I see lots of
             different companies using, ex:{" "}
-            <span className="bold">container platforms</span> like Docker,
+            <span className="bold">container platforms</span> like Docker,{" "}
             <span className="bold">cache db</span> like Redis,{" "}
             <span className="bold">testing</span> with Jest.
           </li>
