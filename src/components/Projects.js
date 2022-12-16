@@ -52,7 +52,7 @@ export default function Projects() {
       id: 2,
       name: "Tweeter",
       description:
-        "Tweeter is a clone of popular social media features. Users can create accounts, follow friends, and see a feed of friends posts and an explore page for all users posts. Users can create their own profiles and see their post history and account details. The chat feature uses Action Cable to broadcast messages to channels in real time. extra extra extra extraextra extra extra extraextra extra extra extraextra extra extra extraextra extra extra extraextra extra extra extra extra extra extra extra",
+        "Tweeter is a clone of popular social media features. Users can create accounts, follow friends, and see a feed of friends posts and an explore page for all users posts. Users can create their own profiles and see their post history and account details. The chat feature uses Action Cable to broadcast messages to channels in real time.",
       url: "",
       preview: tweeter,
       tech: [
