@@ -71,6 +71,9 @@ export default function About() {
               Express.js <i className="devicon-express-original"></i>
             </li>
             <li>
+              Nest.js <i className="devicon-nestjs-plain"></i>
+            </li>
+            <li>
               PostgreSQL <i className="devicon-postgresql-plain"></i>
             </li>
           </ul>
@@ -82,13 +85,16 @@ export default function About() {
               React.js <i className="devicon-react-original"></i>
             </li>
             <li>
+              Jest <i className="devicon-jest-plain"></i>
+            </li>
+            <li>
+              Docker <i className="devicon-docker-plain"></i>
+            </li>
+            <li>
               Ruby <i className="devicon-ruby-plain"></i>
             </li>
             <li>
               Ruby on Rails <i className="devicon-rails-plain"></i>
-            </li>
-            <li>
-              mongoDB <i className="devicon-mongodb-plain"></i>
             </li>
             <li>
               HTML <i className="devicon-html5-plain"></i>
