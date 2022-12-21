@@ -211,7 +211,7 @@ h6 {
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #ff665a;
   justify-content: space-evenly;
 }
@@ -254,7 +254,7 @@ ul.tech-list {
   flex-direction: column;
   align-items: center;
   line-height: 0.9em;
-  height: 45vh;
+  /* height: 45vh; */
   /* flex-grow: 1; */
   background-color: #f0f0f2;
 }
@@ -446,8 +446,23 @@ img {
     column-gap: 1em;
   }
 
+  #projects-container {
+    height: 100vh;
+  }
+
   .project-card {
     margin: 0;
     width: 40%;
+    height: 45vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #projects-container {
+    height: 100vh;
+  }
+
+  .project-card {
+    height: 45vh;
   }
 }

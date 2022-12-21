@@ -4,21 +4,7 @@ import "../App.css";
 export default function Contact() {
   return (
     <div id="contact-container">
-      <h2 className="heading">let's connect!</h2>
-      <div className="contact-text">
-        <p className="bold">I am always looking to connect with new people.</p>
-        <p className="bold">
-          Sharing ideas turns possibilities into realities.{" "}
-        </p>
-
-        <p>
-          In my next position, I am looking for the right match for my
-          development experience, commitment to learning, and passionate nature.
-          My experience in restaurant management has helped me develop strong
-          communication and team collaboration skills.
-        </p>
-      </div>
-
+      <h2 className="heading">connect with me 👋🏼</h2>
       <div className="social-media">
         <div className="links">
           <a
