@@ -12,7 +12,7 @@ export default function Projects() {
       id: 4,
       name: "SafePlace International Virtual Community",
       description:
-        "This hackathon-winning project was created for Essteem's Pride Month Equalithon, where the challenge was to come up with a web portal solution for SafePlace International's LGBTQ+ refugees worldwide. I collaborated with a fantastic team of UX/UI designers and developers to design and develop the SPI Virtual Community. I designed the back end with Node.js, Express, Sequelize and PostgreSQL, using an MVC architecture.",
+        "The SPI Virtual Community is a web-based platform where SafePlace International’s LGBTQ+ refugees can build personal profiles, connect with other members, and safely share content. I designed and developed the back end using an MVC architecture with Node.js, Express, Sequelize and PostgreSQL. This project won first place in the Essteem Pride Month Equalithon Hackathon!",
       url: "",
       preview: spi,
       tech: ["Javascript", "Node.js", "Express", "Sequelize", "PostgreSQL"],
@@ -23,7 +23,7 @@ export default function Projects() {
       id: 3,
       name: "TweetStream",
       description:
-        "TweetStream allows users to create an event board that collects tweets that match a hashtag from the Twitter Streaming API, and streams them to event boards in real time using Action Cable for websockets. Using Active Storage for Rails with Cloudinary, users can upload profile pictures directly from a file chooser. TweetStream uses JWT and BCrypt for authentication and authorization and has a React front end with Greensock animation library and custom CSS.",
+        "TweetStream is a streaming service that provides a real-time, animated stream of tweets matching your selected hashtags. I built the back end using Action Cable for web sockets, Active Storage for Rails with Cloudinary for image upload, and JWT and BCrypt for authentication and authorization. I built the front end using React, custom CSS, and the Greensock animation library.",
       url: "",
       preview: tweetstream,
       tech: [
@@ -41,7 +41,7 @@ export default function Projects() {
       id: 1,
       name: "My Carbon Footprint",
       description:
-        "My Carbon Footprint takes a look at some of the most common carbon emitting activities and provides users the ability to fill in personal details and receive an estimate of carbon emissions based on data provided by the Carbon Interface REST API. The data that powers the API is sourced from governments, non-profits, and leading researchers around the world including the EPA GHG Protocol and Environment Canada. The app is designed to create awareness by powering carbon measurement to combat climate change.",
+        "My Carbon Footprint is a web app that estimates your personal carbon emissions. The app uses a React front end to capture personal details like travel history and car usage, and connects to the Carbon Interface REST API to retrieve carbon data and calculate the estimated emissions.",
       url: "",
       preview: carbonpic,
       tech: ["Javascript", "React", "Ruby", "Rails", "PostgreSQL"],
@@ -52,7 +52,7 @@ export default function Projects() {
       id: 2,
       name: "Tweeter",
       description:
-        "Tweeter is a clone of popular social media features. Users can create accounts, follow friends, and see a feed of friends posts and an explore page for all users posts. Users can create their own profiles and see their post history and account details. The chat feature uses Action Cable to broadcast messages to channels in real time.",
+        "Tweeter is an app that clones popular social media features, including following friends, viewing a personalized news feed, and exploring all posts. I used Action Cable websockets for broadcasting real-time messages in the chat feature.",
       url: "",
       preview: tweeter,
       tech: [
