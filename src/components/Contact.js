@@ -10,7 +10,7 @@ export default function Contact() {
           <a
             id="one"
             className="social"
-            href="mailto:elenipapanicolas@gmail.com?subject=Let's Connect!"
+            href="mailto:eleni.papanicolas@proton.me?subject=Let's Connect!"
           >
             <i className="far fa-envelope fa-5x"></i>
           </a>
