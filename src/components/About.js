@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "@material-ui/core";
 
 export default function About() {
   return (
@@ -30,27 +31,45 @@ export default function About() {
             the development lifecycle in action{" "}
           </li>
           <li>
-            🍑 Right now I'm learning about{" "}
+            🍑 I am always learning as much as I can about{" "}
             <span className="bold">software engineering best practices</span>,
             software architecture and writing clean code.{" "}
           </li>
           <li>
             🫐 I also like to spend time learning about{" "}
-            <span className="bold">tools and products</span> that I see lots of
+            <span className="bold">tools and products</span> that I see many
             different companies using, ex:{" "}
             <span className="bold">container platforms</span> like Docker,{" "}
             <span className="bold">cache db</span> like Redis,{" "}
             <span className="bold">testing</span> with Jest.
           </li>
           <li>
-            🍏 I do a bit of data structures and algorithms daily to flex those
+            🍏 I incorporate data structures and algorithms to flex those
             <span className="bold"> problem-solving muscles</span>
           </li>
           <li>
             🍒 I work on small projects to{" "}
             <span className="bold">implement new concepts</span> I am learning
-            about, currently object oriented design in Typescript. Fun projects
-            help me maintain motivation while also using my creative side.
+            about. Fun projects help me maintain motivation while also using my
+            creative side.
+          </li>
+          <li>
+            🍉 Most recently, I have been working as a software engineer
+            volunteer{" "}
+            <span className="bold">
+              <a
+                href="https://clearviction.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="clearviction"
+              >
+                @Clearviction
+              </a>
+            </span>
+            , where I build tools that help reduce barriers for formerly
+            incarcerated individuals. Collaborating on a team that works in an
+            agile environment, on a product with real users, is the hands-on and
+            practical experience that felt like a natural next step!
           </li>
         </ul>
       </div>

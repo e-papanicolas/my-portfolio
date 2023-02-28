@@ -123,6 +123,15 @@ h6 {
 
 /* ABOUT */
 
+.clearviction {
+  text-decoration: underline;
+  color: black;
+}
+
+.clearviction:hover {
+  color: #fff587;
+}
+
 #about-container {
   scroll-snap-align: start;
   height: 100vh;
