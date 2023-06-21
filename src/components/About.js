@@ -4,10 +4,10 @@ import "../App.css";
 export default function About() {
   return (
     <div id="about-container">
-      <h1 className="f-s-d">full stack developer</h1>
+      <h1 className="f-s-d">software engineer</h1>
       <div className="blurb">
         <h3 className="greet">
-          Hi there 👋🏼 I'm Eleni! Full stack software engineer from Washington,
+          Hi there 👋🏼 I'm Eleni, a software engineer from Washington,
           DC (by way of Los Angeles ☀️ and New Jersey). Follow along on my
           journey from restaurants to tech 🚀{" "}
         </h3>
@@ -26,13 +26,12 @@ export default function About() {
           <li>
             🍇 I wrote the back end for a{" "}
             <span className="bold">hackathon-winning application</span>, where I
-            got to <span className="bold">collaborate with a team</span> and see
-            the development lifecycle in action{" "}
+            got to <span className="bold">collaborate with a cross-functional team</span>{" "}
           </li>
           <li>
             🍑 I am always learning as much as I can about{" "}
             <span className="bold">software engineering best practices</span>,
-            software architecture and writing clean code.{" "}
+            software architecture and writing clean code{" "}
           </li>
           <li>
             🫐 I also like to spend time learning about{" "}
@@ -40,20 +39,16 @@ export default function About() {
             different companies using, ex:{" "}
             <span className="bold">container platforms</span> like Docker,{" "}
             <span className="bold">cache db</span> like Redis,{" "}
-            <span className="bold">testing</span> with Jest.
-          </li>
-          <li>
-            🍏 I incorporate data structures and algorithms to flex those
-            <span className="bold"> problem-solving muscles</span>
+            <span className="bold">testing</span> with Jest
           </li>
           <li>
             🍒 I work on small projects to{" "}
             <span className="bold">implement new concepts</span> I am learning
             about. Fun projects help me maintain motivation while also using my
-            creative side.
+            creative side
           </li>
           <li>
-            🍉 Most recently, I have been working as a software engineer
+            🍉 I am working as a software engineer
             volunteer{" "}
             <span className="bold">
               <a
@@ -62,13 +57,27 @@ export default function About() {
                 rel="noreferrer"
                 className="clearviction"
               >
-                @Clearviction
+                @ Clearviction
               </a>
             </span>
-            , where I build tools that help reduce barriers for formerly
+            , where I <span className="bold">build tools that help reduce barriers</span> for formerly
             incarcerated individuals. Collaborating on a team that works in an
-            agile environment, on a product with real users, is the hands-on and
+            <span className="bold"> agile environment</span>, on a product with real users, is the hands-on and
             practical experience that felt like a natural next step!
+          </li>
+          <li>
+            🥝 Most recently, I worked on a project{" "}
+            <span className="bold">
+              <a
+                href="https://techfleet.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="clearviction"
+              >
+                @ Tech Fleet
+              </a>
+            </span>
+            , a community led non-profit, where the client was the same non-profit I had won the hackathon project for, SafePlace International. I was the <span className="bold">development team lead building a GraphQL API</span> for the profile management feature of the virtual community for LGBTQ+ refugees who are graduates of SPI's The Dream Academy. Reconnecting with this project and cross-collaborating with design and product teams, was such a rewarding experience!
           </li>
         </ul>
       </div>
@@ -77,10 +86,10 @@ export default function About() {
           <h3>💻 My current stack:</h3>
           <ul className="list">
             <li>
-              JavaScript <i className="devicon-javascript-plain"></i>
+              Typescript <i className="devicon-typescript-plain"></i>
             </li>
             <li>
-              TypeScript <i className="devicon-typescript-plain"></i>
+              Javascript <i className="devicon-javascript-plain"></i>
             </li>
             <li>
               Node.js <i className="devicon-nodejs-plain"></i>
@@ -89,7 +98,7 @@ export default function About() {
               Express.js <i className="devicon-express-original"></i>
             </li>
             <li>
-              Nest.js <i className="devicon-nestjs-plain"></i>
+              GraphQL <i className="devicon-graphql-plain"></i>
             </li>
             <li>
               PostgreSQL <i className="devicon-postgresql-plain"></i>
@@ -100,19 +109,13 @@ export default function About() {
           <h3>Bonus points 💭</h3>
           <ul className="list">
             <li>
+              Docker <i className="devicon-docker-plain"></i>
+            </li>
+            <li>
               React.js <i className="devicon-react-original"></i>
             </li>
             <li>
               Jest <i className="devicon-jest-plain"></i>
-            </li>
-            <li>
-              Docker <i className="devicon-docker-plain"></i>
-            </li>
-            <li>
-              Ruby <i className="devicon-ruby-plain"></i>
-            </li>
-            <li>
-              Ruby on Rails <i className="devicon-rails-plain"></i>
             </li>
             <li>
               HTML <i className="devicon-html5-plain"></i>
